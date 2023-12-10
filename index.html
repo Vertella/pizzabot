@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ver's pizzeria</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="./script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="header">
+        <h1>Ver's pizzeria</h1>
+        <p>Hey! We are happy to make and serve your pizza.</p>
+    </div>
+    <div id="order-screen">
+        <div id="menu">
+            <p class="bold-text">Today's menu:</p>
+            <div class="menuitems">
+                <p>Vegetarian Pizza 80 :-</p>
+                <p>Hawaiian Pizza 80 :-</p>
+                <p>Pepperoni Pizza 80 :-</p>
+                <p>Extra sauce 20 :-</p>
+            </div>
+        </div>
+        
+        <form id="pizzabot">
+            <p class="bold-text">Your order:</p>
+            Type of pizza: <input type="text" name="pizzaType" id="pizzaType"><br>
+            Number of pizzas: <input type="text" name="quantity" id="quantity"><br>
+            <input type="button" onclick="myFunction()" value="Order"><br>
+        </form>
+    </div>
+    <div id="response">
+        <h1 id="result"></h1>
+        <div id="popup"></div>
+    </div>
+  </body>
+</html>

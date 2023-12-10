@@ -1,0 +1,78 @@
+body {
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: arial;
+}
+
+#header {
+    width: 600px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    background-color: yellow;
+    justify-content: space-evenly;
+    text-align: center;
+    border-bottom: 0px;
+}
+
+#order-screen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    background-color: yellow;
+    justify-content: space-evenly;
+}
+
+#menu, #pizzabot {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin: 5%;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+input[type=text] {
+    background-color: orange;
+    color: black;
+}
+
+.button {
+    color: black;
+    background-color: red;
+    display: inline-block;
+}
+
+#response {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    background-color: yellow;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    border-top: 0;
+}
+
+#result {
+    font-size: 18px;
+}
+
